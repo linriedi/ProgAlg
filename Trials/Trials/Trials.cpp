@@ -2,6 +2,7 @@
 #include <iostream>
 #include <time.h>
 #include <iomanip>
+#include <conio.h>
 
 using namespace std;
 
@@ -23,4 +24,5 @@ int main() {
 	} 
 
 	cout << setprecision(10) << 4 * sum / double(npoints) << endl;
+	_getch();
 }
